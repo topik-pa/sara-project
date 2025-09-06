@@ -3,14 +3,14 @@ layout: "layouts/homepage.njk"
 hero:
   subTitle: "WE WORK HARD, WE PLAY HARD"
   title:
-    firstPara: "We’re a Design Studio"
-    secondPara: "That Believes In Great Ideas"
+    firstPara: "Lorem ipsum dolor sit amet"
+    secondPara: "consectetur adipiscing elit"
   seeWorkBtn:
-    text: "See Our Works"
+    text: "Continua"
     link: "#project"
   connectBtn: 
-    text: "Connect with us"
-    link: "contact"
+    text: "Contattaci"
+    link: "contatti"
 
 portfolio:
   subTitle: "OUR RECENT WORKS"

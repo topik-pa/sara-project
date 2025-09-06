@@ -1,0 +1,84 @@
+:root {
+  /* COLORS */
+  --white:         #FAF9F6;
+  --lightest-gray: #EAE9E6;
+  --lighter-gray:  #D4D3D0;
+  --light-gray:    #B9B8B5;
+  --gray:          #9E9D99;
+  --dark-gray:     #7D7C78;
+  --darker-gray:   #5D5C58;
+  --darkest-gray:  #3C3B38;
+  --black:         #191815;
+
+  --blue: #3F6580;
+  --red:  #CD212A;
+  --green:#009e4f;
+  --gold:   #ffd700;
+  --silver: #aaa9ad;
+  --bronze: #cd7f32;
+
+  --primary: var(--white);
+  --secondary: var(--darkest-gray);
+  --tertiary: var(--blue);
+
+  --error: var(--red);
+  --success: var(--green);
+  --link: var(--blue);
+  --text: var(--secondary);
+  --background: var(--primary);
+
+  /* TRANSPARENCIES */
+  --transparent: .1;
+  --semi-transparent: .85;
+  --blue-st: rgba(2, 89, 139, var(--semi-transparent));
+  /* --wt: rgba(255, 255, 255, var(--transparent));
+  --wst: rgba(255, 255, 255, var(--semi-transparent));
+  --bt: rgba(0, 0, 0, var(--transparent));
+  --bst: rgba(0, 0, 0, var(--semi-transparent));
+  --rt: rgba(201, 30, 44, var(--transparent)); */
+
+  /* FONT SIZES */
+  --font-size-very-small: .75rem;
+  --font-size-small: .875rem;
+  --font-size-base: 1rem;
+  --font-size-big: 1.25rem;
+  --font-size-bigger: 1.5rem;
+  --font-size-huge: 2.2rem;
+  --font-size-biggest: 2.5rem;
+
+  /* SHADOWS */
+  --shadow: 0 0 10px 0 var(--black);
+  --text-shadow: 0 3px 3px var(--black);
+
+  /* DIMENSIONS */
+  --xx-small-space: .2rem;
+  --x-small-space: .5rem;
+  --small-space: .8rem;
+  --base-space: 1rem;
+  --large-space: 1.3rem;
+  --x-large-space: 1.8rem;
+  --xx-large-space: 2.4rem;
+  --xxx-large-space: 3.2rem;
+
+  --main-padding: var(--small-space);
+  --section-margin: var(--xx-large-space);
+
+  /* ICONS */
+  --small-icon: var(--small-space);
+  --normal-icon: var(--base-space);
+  --big-icon: var(--x-large-space);
+
+  /* BORDER RADIUS */
+  --border-radius-small: var(--xx-small-space);
+  --border-radius-big: var(--small-space);
+  --border-radius-round: 50%;
+
+  /* Z-INDEXES */
+  --loading: 9;
+  --disclaimer: 9;
+  --main-menu: 99;
+  --modal: 999;
+  --privacy: 9999;
+  --gototop: 99999;
+  --spotLayer: 999999;
+}

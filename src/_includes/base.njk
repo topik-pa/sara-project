@@ -2,10 +2,9 @@
 <html lang="zxx">
   <head>
     <meta charset="utf-8" />
-    <title>Roxo | Creative Design Agency</title>
-    <meta name="generator" content="Eleventy">
+    <title>Home | Farmacia Moneghini Attimis</title>
     <!--Meta For No Index-->
-    <meta name="robots" content="noindex, Nofollow, Noimageindex">
+    <meta name="robots" content="index, follow">
 
     <!-- mobile responsive meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -55,9 +54,9 @@
             {% for navLink in nav.navLinks %}
             <li class="nav-item">
               {% if navLink == "home" %}
-                <a class="nav-link" href="/">{{navLink | capitalize}}</a>
+                <a class="nav-link" href="/">{{navLink.label | capitalize}}</a>
               {% else %}
-                <a class="nav-link" href="/{{navLink}}">{{navLink | capitalize}}</a> 
+                <a class="nav-link" href="/{{navLink.url}}">{{navLink.label | capitalize}}</a> 
               {% endif %} 
             </li>
             {% endfor %}
@@ -80,7 +79,7 @@
     {{content | safe}}
   {% endblock %}
 
-  {% block workTogether %}
+  {# {% block workTogether %}
     <section class="site-cta">
       <div class="container">
         <div class="row">
@@ -110,7 +109,7 @@
         </div>
       </div>
     </section>
-  {% endblock %}
+  {% endblock %} #}
 
   {% block footer %}
     <footer class="site-footer">
@@ -118,9 +117,9 @@
         <div class="row">
           <div class="col-12">
             <div class="site-footer-logo">
-              <a href="/">
-                <img src="{{footer.footerLogo}}" alt="logo-footer">
-              </a>
+              {# <a href="/">
+                <img src="{{footer.footerLogo}}" alt="logo" id="logo-footer">
+              </a> #}
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
@@ -177,7 +176,7 @@
           </div>
           <div class="col-12">
             <div class="site-footer-copyright text-center my-3">
-              <p>© Copyright 2022 - All Rights Reserved by <a href="https://staticmania.com/" target="_blank">StaticMania</a> </p>
+              <p>© Copyright 2025 - All Rights Reserved by Farmacia Moneghini</p>
             </div>
           </div>
         </div>

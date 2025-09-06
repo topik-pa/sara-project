@@ -1,6 +1,23 @@
 {
   "navLogo":"/assets/images/logo.png",
-  "navLinks":["home","about","portfolio","blog"],
-  "navBtnLink":"contact",
-  "navBtnText":"Get in touch"
+  "navLinks":[
+    {
+      "label": "Home",
+      "url": ""
+    },
+    {
+      "label": "La Farmacia",
+      "url": "chi-siamo"
+    },
+    {
+      "label": "Servizi",
+      "url": "servizi"
+    },
+    {
+      "label": "Novità",
+      "url": "news"
+    }
+  ],
+  "navBtnLink":"contatti",
+  "navBtnText":"Contattaci"
 }
