@@ -1,13 +1,13 @@
 ---
 layout: "layouts/homepage.njk"
 hero:
-  subTitle: "WE WORK HARD, WE PLAY HARD"
+  subTitle: "Sempre vicini a te con servizi, consigli e attenzione per la tua salute"
   title:
-    firstPara: "Lorem ipsum dolor sit amet"
-    secondPara: "consectetur adipiscing elit"
+    firstPara: "La tua farmacia di fiducia,"
+    secondPara: "a due passi da casa"
   seeWorkBtn:
-    text: "Continua"
-    link: "#project"
+    text: "La farmacia"
+    link: "#counter"
   connectBtn: 
     text: "Contattaci"
     link: "contatti"

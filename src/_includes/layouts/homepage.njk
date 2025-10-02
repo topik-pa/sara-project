@@ -62,8 +62,8 @@
       </div>
     </section>
 
-    <section class="site-project" id="project">
-      <!--<div class="container">
+    <!--<section class="site-project" id="project">
+      <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="section-title">
@@ -89,13 +89,13 @@
             <a href="/{{portfolio.seeAllbtn.link}}" class="site-project-cta">{{portfolio.seeAllbtn.text}}</a>
           </div> #}
         </div>
-      </div>-->
-    </section>
+      </div>
+    </section>-->
 
-    {# <section class="site-testimonial">
+    <section class="site-testimonial">
       <div class="container">
         <div class="row">
-          <div class="col-12">
+          {# <div class="col-12">
             <div class="section-title">
               <h2>
                 {{testimonials.title}}
@@ -104,17 +104,17 @@
                 {{testimonials.des}} 
               </p>
             </div>
-          </div>
+          </div> #}
           {% for opinion in testimonials.opinion %}
           <div class="col-lg-4 col-md-6">
             <div class="site-testimonial-item">
               <div class="site-testimonial-item-header">
                 <div class="thumb">
-                  <img src="{{opinion.img}}" alt="user-thumb">
+                  <i class="fa {{opinion.icon}}"></i>
                 </div>
                 <div class="person">
-                  <h5>{{opinion.name}}</h5>
-                  <p>{{opinion.dig}}</p>
+                  {# <h5>{{opinion.name}}</h5> #}
+                  <a href="{{opinion.url}}" class="btn btn-secondary scroll-to">{{opinion.dig}}</a>
                 </div>
               </div>
               <p class="site-testimonial-item-body">
@@ -125,6 +125,86 @@
           {% endfor %}
         </div>
       </div>
-    </section> #}
+    </section>
+
+    <section class="site-testimonial" id="orari">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title">
+              <h2>
+                I nostri orari
+              </h2>
+              <p>
+                Consulta gli orari di apertura: siamo sempre al tuo fianco per garantirti farmaci, consulenze e servizi quando ne hai più bisogno.
+              </p>
+            </div>
+          </div>
+          <div class="col-12">
+            <table border="1" cellpadding="8" cellspacing="0"  class="orari">
+              <thead>
+                <tr>
+                  <th>Giorno</th>
+                  <th>Orari</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Lunedì</td>
+                  <td>08:30 - 12:30 &nbsp; | &nbsp; 15:00 - 19:00</td>
+                </tr>
+                <tr>
+                  <td>Martedì</td>
+                  <td>08:30 - 12:30 &nbsp; | &nbsp; 15:00 - 19:00</td>
+                </tr>
+                <tr>
+                  <td>Mercoledì</td>
+                  <td>00:00 - 24:00</td>
+                </tr>
+                <tr>
+                  <td>Giovedì</td>
+                  <td>00:00 - 24:00</td>
+                </tr>
+                <tr>
+                  <td>Venerdì</td>
+                  <td>00:00 - 12:30 &nbsp; | &nbsp; 15:00 - 19:00</td>
+                </tr>
+                <tr>
+                  <td>Sabato</td>
+                  <td>Chiuso</td>
+                </tr>
+                <tr>
+                  <td>Domenica</td>
+                  <td>Chiuso</td>
+                </tr>
+              </tbody>
+            </table>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <section class="site-testimonial" id="mappa">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title">
+              <h2>
+                Dove ci troviamo
+              </h2>
+              <p>
+                Ci troviamo in: <em>via Cividale, 26 Attimis (UD)</em>. <br>
+                Scopri come raggiungerci facilmente: la nostra farmacia è vicina a te, pronta ad accoglierti con professionalità e disponibilità.
+              </p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mappa">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2762.1987446180756!2d13.3017306558857!3d46.18660359679336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477a4817272df529%3A0x939c7a785ff4f840!2sVia%20Cividale%2C%2026%2C%2033040%20Attimis%20UD!5e0!3m2!1sit!2sit!4v1759387703254!5m2!1sit!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   
 {% endblock %}

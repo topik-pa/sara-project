@@ -4,39 +4,51 @@
   "opinion":[
     {
       "name": "Simonns Hodge",
-      "dig": "CEO, Credito",
+      "dig": "Chiamaci ora",
       "img": "/assets/images/testimonial/user-thumb-one.jpg",
-      "comment": "Trust us we looked for a very long time and wasted thousands of dollars testing other teams, freelancers, and outsource companies."
+      "icon": "fa-phone",
+      "url": "tel:+390432789039",
+      "comment": "Hai una domanda o un’urgenza? Contattaci subito: il nostro team è a disposizione per offrirti assistenza rapida e risposte chiare."
+    },
+    {
+      "name": "Simonns Hodge",
+      "dig": "Mandaci una email",
+      "img": "/assets/images/testimonial/user-thumb-one.jpg",
+      "icon": "fa-envelope",
+      "url": "mailto:info@farmaciaattimis.fvg.it",
+      "comment": "Hai una domanda o un’urgenza? Contattaci subito: il nostro team è a disposizione per offrirti assistenza rapida e risposte chiare."
     },
     {
       "name": "Rekon Montino",
-      "dig": "CDO, Bulmuci",
+      "dig": "I nostri orari",
       "img": "/assets/images/testimonial/user-thumb-two.jpg",
-      "comment": "Roxo products have allowed us to deliver better support to all our clients. The agility with which we can implement new features and workflows is a key element."
+      "icon": "fa-clock-o",
+      "url": "#orari",
+      "comment": "Consulta gli orari di apertura: siamo sempre al tuo fianco per garantirti farmaci, consulenze e servizi quando ne hai più bisogno."
     },
     {
       "name": "Ryan Hillary",
-      "dig": "MD, Udilamo",
+      "dig": "Dove ci troviamo",
       "img": "/assets/images/testimonial/user-thumb-three.jpg",
-      "comment": "We’re a really busy restaurant, and roxo gives our customers a easy way to order, pay, and pick up their food so they can beat the line and beat that lunch rush."
+      "icon": "fa-map",
+      "url": "#mappa",
+      "comment": "Scopri come raggiungerci facilmente: la nostra farmacia è vicina a te, pronta ad accoglierti con professionalità e disponibilità."
     },
     {
       "name": "Dockrel Kahn",
-      "dig": "PM, Walmet",
+      "dig": "I nostri servizi",
       "img": "/assets/images/testimonial/user-thumb-four.jpg",
-      "comment": "Trust us we looked for a very long time and wasted thousands of dollars testing other teams, freelancers, and outsource companies."
+      "icon": "fa-user-md",
+      "url": "/servizi",
+      "comment": "Offriamo molto più che farmaci: test, misurazioni, consulenze personalizzate e servizi dedicati al tuo benessere quotidiano."
     },
     {
       "name": "Orino Monteno",
-      "dig": "CEO, Axion",
+      "dig": "I prossimi eventi",
       "img": "/assets/images/testimonial/user-thumb-five.jpg",
-      "comment": "Roxo products have allowed us to deliver better support to all our clients. The agility with which we can implement new features and workflows is a key element."
-    },
-    {
-      "name": "Welfo Roy",
-      "dig": "PDO, Komoyo",
-      "img": "/assets/images/testimonial/user-thumb-six.jpg",
-      "comment": "We’re a really busy restaurant, and roxo gives our customers a easy way to order, pay, and pick up their food so they can beat the line and beat that lunch rush."
+      "icon": "fa-calendar",
+      "url": "/eventi",
+      "comment": "Partecipa alle iniziative in farmacia: giornate salute, incontri informativi e screening gratuiti pensati per la tua prevenzione."
     }
   ]
 }
