@@ -1,8 +1,8 @@
 ---
 layout: "layouts/contatti.njk"
-title: "Don’t be shy. Say "
-subTitle: Hello.
+title: "Non indugiare"
+subTitle: Contattaci ora!
 formTitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-btnText: "Send Message"
+btnText: "Invia il messaggio"
 ---
 

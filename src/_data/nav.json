@@ -16,6 +16,10 @@
     {
       "label": "Eventi",
       "url": "eventi"
+    },
+    {
+      "label": "Prenota prodotti",
+      "url": "prenota"
     }
   ],
   "navBtnLink":"contatti",

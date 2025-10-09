@@ -1,8 +1,8 @@
 ---
-subTitle: "PRODUCT LABEL" 
-title: "KIO TAPE"
+subTitle: "ANALISI" 
+title: "Autoanalisi del sangue"
 img: "/assets/images/projects/project-thumb-four.jpg"
-linkText: "view project"
+linkText: "Vedi maggiori dettagli"
 featureImg1: "/assets/images/projects/project-details-image-one.jpg"
 featureImg2: "/assets/images/projects/project-details-image-two.jpg"
 ---

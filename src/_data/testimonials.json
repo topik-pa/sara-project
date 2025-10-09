@@ -8,7 +8,7 @@
       "img": "/assets/images/testimonial/user-thumb-one.jpg",
       "icon": "fa-phone",
       "url": "tel:+390432789039",
-      "comment": "Hai una domanda o un’urgenza? Contattaci subito: il nostro team è a disposizione per offrirti assistenza rapida e risposte chiare."
+      "comment": "Hai una domanda o un’urgenza? Contattaci subito al numero <a href=\"tel:+390432789039\">0432 789039</a>: il nostro team è a disposizione per offrirti assistenza rapida e risposte chiare."
     },
     {
       "name": "Simonns Hodge",
@@ -16,7 +16,7 @@
       "img": "/assets/images/testimonial/user-thumb-one.jpg",
       "icon": "fa-envelope",
       "url": "mailto:info@farmaciaattimis.fvg.it",
-      "comment": "Hai una domanda o un’urgenza? Contattaci subito: il nostro team è a disposizione per offrirti assistenza rapida e risposte chiare."
+      "comment": "Hai una domanda o un’urgenza? Contattaci subito tramite  <a href=\"mailto:info@farmaciaattimis.fvg.it\">info@farmaciaattimis.fvg.it</a>: il nostro team è a disposizione per offrirti assistenza rapida e risposte chiare."
     },
     {
       "name": "Rekon Montino",
@@ -36,7 +36,7 @@
     },
     {
       "name": "Dockrel Kahn",
-      "dig": "I nostri servizi",
+      "dig": "Servizi in loco",
       "img": "/assets/images/testimonial/user-thumb-four.jpg",
       "icon": "fa-user-md",
       "url": "/servizi",
@@ -44,11 +44,11 @@
     },
     {
       "name": "Orino Monteno",
-      "dig": "I prossimi eventi",
+      "dig": "Prenota i prodotti",
       "img": "/assets/images/testimonial/user-thumb-five.jpg",
-      "icon": "fa-calendar",
-      "url": "/eventi",
-      "comment": "Partecipa alle iniziative in farmacia: giornate salute, incontri informativi e screening gratuiti pensati per la tua prevenzione."
+      "icon": "fa-flask",
+      "url": "/prenota",
+      "comment": "Invia la lista dei prodotti che vuoi. Prepareremo il tuo ordine per consegnarlo direttamente a casa tua."
     }
   ]
 }

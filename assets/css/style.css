@@ -237,9 +237,9 @@ textarea.form-control {
 .site-navigation .nav-item .nav-link:hover {
   color: var(--light-gray);
 }
-.site-navigation .nav-item:last-child {
+/* .site-navigation .nav-item:last-child {
   margin-left: 15px;
-}
+} */
 .site-navigation .navbar-toggler {
   outline: 0;
   padding: 0;
@@ -584,7 +584,7 @@ textarea.form-control {
   position: relative;
   font-size: 24px;
   font-weight: 300;
-  color: var(--primary);
+  color: var(--secondary);
   display: flex;
   /* margin-left: auto; */
   /* justify-content: flex-end; */
@@ -683,7 +683,7 @@ textarea.form-control {
 }
 .site-blog-post-content h3 a {
   letter-spacing: 0;
-  color: var(--primary);
+  color: var(--secondary);
   transition: 0.3s ease;
 }
 .site-blog-post-content h3 a:hover {
@@ -973,7 +973,7 @@ textarea.form-control {
 }
 .site-team-member-content p {
   font-size: 18px;
-  color: var(--primary);
+  color: var(--secondary);
   margin-bottom: 20px;
   font-weight: 300;
 }

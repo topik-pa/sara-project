@@ -1,8 +1,8 @@
 ---
-subTitle: "PRODUCT DESIGN" 
-title: "OSEN CLOCK"
+subTitle: "ANALISI" 
+title: "Analisi delle urine"
 img: "/assets/images/projects/project-thumb-two.jpg"
-linkText: "view project"
+linkText: "Vedi maggiori dettagli"
 featureImg1: "/assets/images/projects/project-details-image-one.jpg"
 featureImg2: "/assets/images/projects/project-details-image-two.jpg"
 ---

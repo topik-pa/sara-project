@@ -1,13 +1,27 @@
 {% extends "base.njk" %}
 
 {% block content %}
-    {# <section class="site-about-header">
+
+    <section class="site-blog-header">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h1>{{title}}</h1>
+            {# <p>
+              {{des}}
+            </p> #}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-about-header">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="site-about-wrapper">
               <div class="site-about-company">
-                {{content | safe}}
+                <img src="/assets/images/__logo.png" alt="logo" width="240">
               </div>
               <div class="site-about-description">
                 <p>
@@ -18,7 +32,7 @@
           </div>
         </div>
       </div>
-    </section> #}
+    </section>
 
     {# <section class="site-expertise">
       <div class="container">
@@ -39,7 +53,7 @@
       </div>
     </section> #}
 
-    {# <section class="site-client">
+    <section class="site-client">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -47,18 +61,31 @@
               <h2>{{clients.title}}</h2>
             </div>
             <div class="site-client-wrapper">
-              {% for trustedClient in clients.trustedClients %}
+              {# {% for trustedClient in clients.trustedClients %}
               <div class="site-client-item">
                 <img src="{{trustedClient}}" alt="client-logo">
               </div> 
-              {% endfor %}
+              {% endfor %} #}
+              La nostra farmacia affonda le proprie radici in un tempo in cui la vita scorreva più lentamente e i rapporti umani erano il vero centro della comunità. Era il 1927 quando il dottor Giovanni Rossi, giovane farmacista appena laureato a Bologna, decise di tornare nel suo paese natale per aprire una piccola bottega di spezieria. Non era solo un’attività commerciale: il suo sogno era quello di creare un punto di riferimento per la salute dei suoi concittadini, un luogo dove le persone potessero trovare non solo medicine, ma anche ascolto e consiglio.<br/><br/>
+
+Il primo laboratorio era minuscolo: pochi scaffali in legno scuro, un bancone con il piano in marmo e alcune ampolle di vetro che custodivano erbe officinali, tinture e pomate preparate a mano. In quegli anni, infatti, gran parte del lavoro del farmacista consisteva nel preparare rimedi su misura per i pazienti, mescolando ingredienti naturali con grande precisione e passione. Il dottor Rossi era noto per la sua scrupolosità e per la capacità di dedicare tempo a ciascuno: ascoltava i sintomi, suggeriva cure e consigliava anche rimedi tradizionali tramandati dalle generazioni.
+<br/><br/>
+Con il passare degli anni la farmacia crebbe, diventando un punto di riferimento non solo per chi viveva nel paese, ma anche per le comunità vicine. Durante la guerra, la farmacia rimase aperta nonostante le difficoltà: spesso mancavano i medicinali, e allora il dottor Rossi ricorreva alle sue competenze erboristiche per garantire comunque un sostegno. Non di rado accoglieva chi aveva bisogno anche solo di conforto, trasformando il banco dei medicinali in un luogo di incontro e solidarietà.
+<br/><br/>
+Negli anni ’60 il testimone passò alla figlia Maria, che aveva seguito le orme del padre laureandosi in farmacia. Fu lei a introdurre le prime innovazioni, ampliando l’offerta con prodotti di dermocosmesi e presidi medici, senza mai dimenticare l’eredità di attenzione e cura tramandata dal fondatore. Maria era una donna tenace e visionaria: sapeva che il ruolo della farmacia stava cambiando e che, accanto al farmaco, le persone cercavano anche servizi e consigli mirati per il proprio benessere.
+<br/><br/>
+Con l’arrivo della terza generazione, negli anni ’90, la farmacia si rinnovò completamente. I locali furono ampliati, gli spazi resi più moderni e funzionali, le attrezzature aggiornate con tecnologie all’avanguardia. Oggi, la nostra farmacia conserva ancora lo spirito originario: quello di un luogo familiare, vicino alle persone, dove il rapporto umano conta quanto la competenza professionale.
+<br/><br/>
+Guardando indietro, possiamo dire che la nostra storia è fatta di persone: quelle che hanno dedicato la propria vita dietro il banco e quelle che, dall’altra parte, si sono affidate con fiducia alla nostra esperienza. È proprio questo legame a rendere la farmacia non un semplice esercizio commerciale, ma una parte viva e integrante della comunità.
+<br/><br/>
+E così, dal piccolo laboratorio di inizio Novecento alla realtà moderna di oggi, il filo conduttore è rimasto lo stesso: prenderci cura delle persone con professionalità, dedizione e cuore.
             </div>
           </div>
         </div>
       </div>
-    </section> #}
+    </section>
 
-    {# <section class="site-team">
+    <section class="site-team">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -77,7 +104,8 @@
               <div class="site-team-member-content">
                 <h3>{{teamMember.name}}</h3>
                 <p>{{teamMember.dig}}</p>
-                <ul class="site-team-member-social">
+                <p>{{teamMember.desc}}</p>
+                {# <ul class="site-team-member-social">
                   {% for social in teamMember.social %}
                   <li>
                     <a href="/{{social.link}}">
@@ -85,12 +113,12 @@
                     </a>
                   </li> 
                   {% endfor %}
-                </ul>
+                </ul> #}
               </div>
             </div>
           </div> 
           {% endfor %}
         </div>
       </div>
-    </section> #}
+    </section>
 {% endblock %}

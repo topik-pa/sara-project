@@ -1,7 +1,7 @@
 ---
-subTitle: "ESAME" 
-title: "Esame della vitamina D"
-img: "/assets/images/projects/project-thumb-three.jpg"
+subTitle: "ANALISI" 
+title: "Cardio omega test natrix"
+img: "/assets/images/projects/project-thumb-four.jpg"
 linkText: "Vedi maggiori dettagli"
 featureImg1: "/assets/images/projects/project-details-image-one.jpg"
 featureImg2: "/assets/images/projects/project-details-image-two.jpg"
@@ -40,4 +40,4 @@ Mystery answer. After entering this mode, the screen initially displays “ask n
 
 Note: these strings are for the English version of the watch, we will need to use completely different strings in other countries without reprogramming the logic of the watch.
                 
-The user may cycle among all modes (date/time, timer, mystery answer) by pressing the mode button.             
+The user may cycle among all modes (date/time, timer, mystery answer) by pressing the mode button.

@@ -18,4 +18,9 @@ portfolio:
   seeAllbtn:
     link: "portfolio"
     text: "MORE WORKS"
+
+pagination:
+  data: collections.blogpost
+  size: 2
+  alias: posts
 ---
