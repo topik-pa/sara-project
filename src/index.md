@@ -1,5 +1,6 @@
 ---
 layout: "layouts/homepage.njk"
+title: "Home | Farmacia Moneghini Attimis"
 hero:
   subTitle: "Sempre vicini a te con servizi, consigli e attenzione per la tua salute"
   title:
@@ -11,13 +12,6 @@ hero:
   connectBtn: 
     text: "Contattaci"
     link: "contatti"
-
-portfolio:
-  subTitle: "OUR RECENT WORKS"
-  title: "Crafting experiences and seeking to make the complex clear & beautiful."
-  seeAllbtn:
-    link: "portfolio"
-    text: "MORE WORKS"
 
 pagination:
   data: collections.blogpost

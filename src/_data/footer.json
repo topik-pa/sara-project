@@ -1,15 +1,13 @@
 {
-  "footerLogo": "/assets/images/logo.png",
-
-  "contactsHeading": "Contact Info",
+  "contactsHeading": "Contatti",
   "contactsInfo":[
     {
-      "link":"https://goo.gl/maps/fBANt7Ns2wi6mM7cA",
-      "text":"Via Cividale, 26, 33040 Attimis (Udine)"
+      "link":"https://maps.app.goo.gl/1tCDGM4hinuutSpL9",
+      "text":"Via Cividale 26, <br/>33040 Attimis (Udine)"
     },
     {
       "link":"tel:0432789039",
-      "text":"0432789039"
+      "text":"0432-789039"
     },
     {
       "link":"mailto:",
@@ -20,20 +18,24 @@
   "siteMapHeading":"Sitemap",
   "siteMap":[
     {
-      "link":"chi-siamo",
-      "text":"La Farmacia"
-    },
-    {
       "link":"servizi",
       "text":"Servizi"
     },
     {
-      "link":"privacy-policy",
-      "text":"Privacy"
+      "link":"eventi",
+      "text":"Eventi"
     },
     {
-      "link":"terms-conditions",
-      "text":"Terms & Condition"
+      "link":"prenota",
+      "text":"Prenota prodotti"
+    },
+    {
+      "link":"contatti",
+      "text":"Contattaci"
+    },
+    {
+      "link":"privacy-policy",
+      "text":"Privacy"
     }
   ],
   

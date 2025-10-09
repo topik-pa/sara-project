@@ -44,16 +44,17 @@ h5 {
 }
 
 h6 {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 300;
+  font-style: italic;
 }
 
 .btn {
   font-family: "Montserrat", sans-serif;
   border: none;
-  color: var(--secondary)!important;
+  color: var(--secondary);
   padding: 20px 45px;
-  border-radius: 0;
+  border-radius: var(--xx-small-space);
 }
 .btn:focus {
   box-shadow: none;
@@ -105,16 +106,17 @@ h6 {
 }
 
 .btn-primary {
-  background: var(--dark-gray);
-  color: var(--secondary)
+  background: var(--purple);
+  color: var(--white);
 }
 .btn-primary:hover {
   background: var(--darker-gray);
 }
 
 .btn-secondary {
-  background: var(--light-gray);
-  color: var(--secondary)
+  background: var(--lighter-gray);
+  color: var(--purple);
+  border: 1px solid var(--purple);
 }
 .btn-secondary:hover {
   background: var(--gray);
@@ -192,7 +194,7 @@ textarea.form-control {
 }
 
 .site-navigation {
-  padding: 20px 0;
+  padding: 10px 0;
   background: var(--white);
   position: fixed;
   top: 0;
@@ -212,15 +214,18 @@ textarea.form-control {
 }
 @media (max-width: 575px) {
   .site-navigation {
-    padding: 15px;
+    padding: 5px 10px;
   }
 }
 .site-navigation .navbar-brand {
   padding: 0;
   margin: 0;
+  display: flex;
+  align-items: center;
 }
 .site-navigation .navbar-brand img {
-  max-width: 75px;
+  max-height: 60px;
+  margin-right: .8rem;
 }
 @media (max-width: 991px) {
   .site-navigation .nav-item {
@@ -233,6 +238,7 @@ textarea.form-control {
   transition: all 0.3s ease;
   padding: 15px 18px;
   position: relative;
+  font-weight: 500;
 }
 .site-navigation .nav-item .nav-link:hover {
   color: var(--light-gray);
@@ -276,7 +282,7 @@ textarea.form-control {
 .site-navigation .navbar-toggler.collapsed .icon-bar:nth-child(3) {
   transform: rotate(0);
 }
-.site-navigation.nav-bg {
+/* .site-navigation.nav-bg {
   padding: 12px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.09);
 }
@@ -284,12 +290,12 @@ textarea.form-control {
   .site-navigation.nav-bg {
     padding: 15px;
   }
-}
+} */
 
 .site-hero {
   position: relative;
   height: 100vh;
-  background-image: url("../images/backgrounds/hero-background2.jpeg");
+  background-image: url("../images/backgrounds/hero-background.webp");
   background-size: cover;
   background-position: center center;
   background-color: var(--lightest-gray);
@@ -1154,8 +1160,10 @@ textarea.form-control {
   padding-bottom: 3rem;
 }
 .site-hero-content {
-  background: rgba(255, 255, 255, 0.8);
-  padding: 1rem;
+  background: rgba(250, 249, 246, 0.87);
+  padding: 2rem;
+  border: 1px solid var(--purple);
+  border-radius: var(--border-radius-small);
 }
 .site-hero-scroll {
   display: none;
@@ -1165,4 +1173,21 @@ textarea.form-control {
   min-width: 50%;
   margin: 0 auto;
   text-align: center;
+}
+
+.name {
+  font-family: "Great Vibes", cursive;
+  color: var(--green);
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+@media (max-width: 440px) {
+  .name {
+    display: none;
+  }
 }

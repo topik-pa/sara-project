@@ -26,11 +26,11 @@ $(document).ready(function() {
 
 });
 
-$(window).on('scroll', function () {
-  var windscroll = $(window).scrollTop();
-  if (windscroll >= 100) {
-    $('.site-navigation').addClass('nav-bg');
-  } else {
-    $('.site-navigation').removeClass('nav-bg');
-  }
-});
+// $(window).on('scroll', function () {
+//   var windscroll = $(window).scrollTop();
+//   if (windscroll >= 100) {
+//     $('.site-navigation').addClass('nav-bg');
+//   } else {
+//     $('.site-navigation').removeClass('nav-bg');
+//   }
+// });

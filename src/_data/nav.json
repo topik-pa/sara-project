@@ -1,13 +1,9 @@
 {
-  "navLogo":"/assets/images/logo.png",
+  "navLogo":"/assets/images/logo.webp",
   "navLinks":[
     {
       "label": "Home",
       "url": ""
-    },
-    {
-      "label": "La Farmacia",
-      "url": "chi-siamo"
     },
     {
       "label": "Servizi",
@@ -20,8 +16,10 @@
     {
       "label": "Prenota prodotti",
       "url": "prenota"
+    },
+    {
+      "label": "Contattaci",
+      "url": "contatti"
     }
-  ],
-  "navBtnLink":"contatti",
-  "navBtnText":"Contattaci"
+  ]
 }

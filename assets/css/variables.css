@@ -10,20 +10,18 @@
   --darkest-gray:  #3C3B38;
   --black:         #191815;
 
-  --blue: #3F6580;
+  --green: #5A7872;
+  --purple:  #6e5275;
+  --brown:#78725A;
   --red:  #CD212A;
-  --green:#009e4f;
-  --gold:   #ffd700;
-  --silver: #aaa9ad;
-  --bronze: #cd7f32;
 
-  --primary: var(--white);
-  --secondary: var(--darkest-gray);
-  --tertiary: var(--blue);
+  --primary: var(--green);
+  --secondary: var(--purple);
+  --tertiary: var(--brown);
 
   --error: var(--red);
   --success: var(--green);
-  --link: var(--blue);
+  --link: var(--purple);
   --text: var(--secondary);
   --background: var(--primary);
 
@@ -69,7 +67,7 @@
   --big-icon: var(--x-large-space);
 
   /* BORDER RADIUS */
-  --border-radius-small: var(--xx-small-space);
+  --border-radius-small: var(--x-small-space);
   --border-radius-big: var(--small-space);
   --border-radius-round: 50%;
 
