@@ -3,7 +3,7 @@ title: "Mese della Prevenzione del Diabete"
 des: "Screening gratuito della glicemia e consigli nutrizionali per la prevenzione del diabete."
 postDate: "15-Nov-2019"
 img: "/assets/images/blog/blog-post-03.jpg"
-btnText: "read more"
+btnText: "Maggiori dettagli"
 author: "Sherlock Homes"
 featureImg: "/assets/images/blog/blog-details-image.jpg"
 ---

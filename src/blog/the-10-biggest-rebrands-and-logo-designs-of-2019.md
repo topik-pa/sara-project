@@ -3,7 +3,7 @@ title: "Giornata delle Allergie Stagionali"
 des: "Test gratuiti per individuare le principali allergie e consigli su come affrontarle."
 postDate: "16-Dec-2019"
 img: "/assets/images/blog/blog-post-01.jpg"
-btnText: "read more"
+btnText: "Maggiori dettagli"
 author: "Byomkesh Bakshi"
 featureImg: "/assets/images/blog/blog-details-image.jpg"
 ---

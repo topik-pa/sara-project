@@ -13,10 +13,10 @@
               <div class="site-project-single-description">
                 {{content | safe}}
               </div>
-              <div class="site-project-single-image">
+              {# <div class="site-project-single-image">
                 <img src="{{featureImg1}}" alt="project image">
                 <img src="{{featureImg2}}" alt="project image">
-              </div>
+              </div> #}
               {% if collections.portfolios %}
               {% set nextPost = collections.portfolios | getNextCollectionItem(page) %}
               {% set previousPost = collections.portfolios | getPreviousCollectionItem(page) %}

@@ -3,7 +3,7 @@ title: "Settimana della Pelle e della Bellezza"
 des: "Analisi gratuita della pelle e consulenze dermatologiche personalizzate."
 postDate: "16-Oct-2019"
 img: "/assets/images/blog/blog-post-04.jpg"
-btnText: "read more"
+btnText: "Maggiori dettagli"
 author: "Felu Mitter"
 featureImg: "/assets/images/blog/blog-details-image.jpg"
 ---

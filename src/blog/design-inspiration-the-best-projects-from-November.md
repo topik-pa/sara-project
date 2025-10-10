@@ -3,7 +3,7 @@ title: "Giornata della Salute Cardiovascolare"
 des: "Controlli gratuiti della pressione e consulenza per la prevenzione cardiovascolare."
 postDate: "26-Nov-2019"
 img: "/assets/images/blog/blog-post-02.jpg"
-btnText: "read more"
+btnText: "Maggiori dettagli"
 author: "Alexender Schoitiz"
 featureImg: "/assets/images/blog/blog-details-image.jpg"
 ---

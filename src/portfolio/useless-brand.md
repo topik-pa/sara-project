@@ -1,5 +1,5 @@
 ---
-subTitle: "MISURAZIONE" 
+subTitle: "MISURAZIONwwE" 
 title: "Misurazione della pressione arteriosa"
 img: "/assets/images/projects/project-thumb-one.jpg"
 linkText: "Vedi maggiori dettagli"

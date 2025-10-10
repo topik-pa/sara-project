@@ -18,12 +18,6 @@
     <section class="site-project" id="project">
       <div class="container">
         <div class="row">
-          {# <div class="col-12">
-            <div class="section-title">
-              <h2>{{portfolio.subTitle}}</h2>
-              <p>{{portfolio.title}}</p>
-            </div>
-          </div> #}
           {% for portfolio in collections.portfolios %}
           <div class="col-lg-6 col-md-10 mx-auto">
             <div class="site-project-item">
@@ -32,7 +26,11 @@
               </div>
               <div class="site-project-item-content">
                 <span>{{portfolio.data.subTitle}}</span>
-                <h3>{{portfolio.data.title}}</h3>
+                <h3>
+                  <a href="{{portfolio.data.page.url}}">
+                    {{portfolio.data.title}}
+                  </a>
+                </h3>
                 <a href="{{portfolio.data.page.url}}" class="read-more">{{portfolio.data.linkText}}</a>
               </div>
             </div>
