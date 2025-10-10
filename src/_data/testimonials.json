@@ -23,15 +23,15 @@
       "dig": "I nostri orari",
       "img": "/assets/images/testimonial/user-thumb-two.jpg",
       "icon": "fa-clock-o",
-      "url": "#orari",
-      "comment": "Consulta gli orari di apertura: siamo sempre al tuo fianco per garantirti farmaci, consulenze e servizi quando ne hai più bisogno."
+      "url": "#hours",
+      "comment": "Consulta gli orari di apertura: siamo sempre al tuo fianco per garantirti farmaci, consulenze e servizi quando ne hai più bisogno.<br><br>"
     },
     {
       "name": "Ryan Hillary",
       "dig": "Dove ci troviamo",
       "img": "/assets/images/testimonial/user-thumb-three.jpg",
       "icon": "fa-map",
-      "url": "#mappa",
+      "url": "#map",
       "comment": "Scopri come raggiungerci facilmente: la nostra farmacia è vicina a te, pronta ad accoglierti con professionalità e disponibilità."
     },
     {

@@ -12,7 +12,7 @@
 
   --green: #5A7872;
   --purple:  #6e5275;
-  --brown:#78725A;
+  --brown:#6b654c;
   --red:  #CD212A;
 
   --primary: var(--green);
@@ -21,7 +21,7 @@
 
   --error: var(--red);
   --success: var(--green);
-  --link: var(--purple);
+  --link: var(--brown);
   --text: var(--secondary);
   --background: var(--primary);
 
