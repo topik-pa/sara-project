@@ -1,6 +1,6 @@
 ---
 layout: "layouts/privacyPolicy.njk"
-title: "Privacy & Policy"
+title: "Privacy & Policy | Farmacia Moneghini Attimis"
 ---
 #### What is Lorem Ipsum?
 

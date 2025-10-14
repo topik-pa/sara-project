@@ -53,6 +53,15 @@ em {
   font-weight: bolder;
 }
 
+.error {
+  color: var(--red)!important;
+  border-color: var(--red)!important;
+}
+.confirm {
+  color: var(--green)!important;
+  border-color: var(--green)!important;
+}
+
 .btn {
   font-family: "Montserrat", sans-serif;
   border: none;

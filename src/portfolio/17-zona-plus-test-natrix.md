@@ -1,7 +1,7 @@
 ---
 subTitle: "TEST" 
-title: "Gluten sensivity & Celiac test natrix"
-img: "/assets/images/projects/project-thumb-four.jpg"
+title: "Zona plus test natrix"
+img: "/assets/images/projects/analysis5.jpg"
 linkText: "Vedi maggiori dettagli"
 featureImg1: "/assets/images/projects/project-details-image-one.jpg"
 featureImg2: "/assets/images/projects/project-details-image-two.jpg"

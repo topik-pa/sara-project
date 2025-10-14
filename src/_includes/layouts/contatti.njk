@@ -8,7 +8,7 @@
           
           <div class="col-lg-5">
             <h1 class="site-contact-title">
-              {{title}}<br/><span>{{subTitle}}</span>
+              Farmacia Moneghini di Attimis<br/><span>{{subTitle}}</span>
             </h1>
           </div>
 
@@ -16,16 +16,16 @@
           <div class="col-lg-6 ml-auto">
             <div class="site-contact-form">
               <h4>{{formTitle}}</h4>
-              <form method="POST" action="#">
+              <form method="POST" action="https://farmaciaattimis.fvg.it/contact-us.php">
                 <div class="row">
                   <div class="col-lg-6">
-                    <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome">
+                    <input required type="text" class="form-control" name="nome" id="nome" placeholder="Nome">
                   </div>
                   <div class="col-lg-6">
-                    <input type="text" class="form-control" name="cognome" id="cognome" placeholder="Cognome">
+                    <input required type="text" class="form-control" name="cognome" id="cognome" placeholder="Cognome">
                   </div>
                   <div class="col-lg-6">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                    <input required type="email" class="form-control" name="email" id="email" placeholder="Email">
                   </div>
                   {# <div class="col-lg-6">
                     <div class="select-wrapper">
@@ -37,10 +37,16 @@
                     </div>
                   </div> #}
                   <div class="col-12">
-                    <textarea class="form-control" id="aboutProject" rows="6" placeholder="Scrivi qui il tuo messaggio..."></textarea>
+                    <textarea required name="messaggio" class="form-control" id="aboutProject" rows="6" placeholder="Scrivi qui il tuo messaggio..."></textarea>
                   </div>
+
                   <div class="col-12">
-                    <button type="submit" class="btn btn-primary" formtarget="_blank">
+                    <input type="checkbox" id="privacy" name="privacy" required>
+                    <label for="privacy">Dichiaro di aver letto l'informativa sulla privacy ed esprimo il mio consenso al trattamento dei dati per le finalità indicate</label>
+                  </div>
+
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary">
                       <span class="btn-area">
                         <span data-text="{{btnText}}">
                           {{btnText}}

@@ -1,7 +1,7 @@
 ---
-subTitle: "ANALISI" 
-title: "Tele dermatologia"
-img: "/assets/images/projects/project-thumb-four.jpg"
+subTitle: "CONSULENZA" 
+title: "Consulenza nutrizionale gratuita (programma dietalab)"
+img: "/assets/images/projects/pharmacy2.jpg"
 linkText: "Vedi maggiori dettagli"
 featureImg1: "/assets/images/projects/project-details-image-one.jpg"
 featureImg2: "/assets/images/projects/project-details-image-two.jpg"

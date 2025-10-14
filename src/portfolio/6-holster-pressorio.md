@@ -1,7 +1,7 @@
 ---
-subTitle: "ANALISI" 
-title: "Servizio gratuito di prenotazione CUP"
-img: "/assets/images/projects/project-thumb-four.jpg"
+subTitle: "MISURAZIONE" 
+title: "Holster pressorio"
+img: "/assets/images/projects/pressure.jpg"
 linkText: "Vedi maggiori dettagli"
 featureImg1: "/assets/images/projects/project-details-image-one.jpg"
 featureImg2: "/assets/images/projects/project-details-image-two.jpg"

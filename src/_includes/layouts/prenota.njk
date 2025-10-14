@@ -8,7 +8,7 @@
           
           <div class="col-lg-5">
             <h1 class="site-contact-title">
-              {{title}}<br/><span>{{subTitle}}</span>
+              Prenota i tuoi prodotti<br/><span>{{subTitle}}</span>
             </h1>
             <p class="otherwise">Preferisci telefonarci? <br>Chiama il numero: <em>0432-789039</em></p>
           </div>
@@ -17,25 +17,25 @@
           <div class="col-lg-6 ml-auto">
             <div class="site-contact-form">
               <h4>{{formTitle}}</h4>
-              <form method="POST" action="#">
+              <form method="POST" action="https://farmaciaattimis.fvg.it/book.php">
                 <div class="row">
                   <div class="col-lg-6">
-                    <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome">
+                    <input required type="text" class="form-control" name="nome" id="nome" placeholder="Nome">
                   </div>
                   <div class="col-lg-6">
-                    <input type="text" class="form-control" name="cognome" id="cognome" placeholder="Cognome">
+                    <input required type="text" class="form-control" name="cognome" id="cognome" placeholder="Cognome">
                   </div>
                   <div class="col-lg-6">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                    <input required type="email" class="form-control" name="email" id="email" placeholder="Email">
                   </div>
                   <div class="col-lg-6">
-                    <input type="text" class="form-control" name="phone" id="phone" placeholder="Numero di telefono">
+                    <input required type="tel" class="form-control" name="phone" id="phone" placeholder="Numero di telefono">
                   </div>
                   <div class="col-lg-6">
-                    <input type="text" class="form-control" name="address" id="address" placeholder="Indirizzo di spedizione">
+                    <input required type="text" class="form-control" name="address" id="address" placeholder="Indirizzo di spedizione">
                   </div>
                   <div class="col-lg-6">
-                    <input type="text" class="form-control" name="cf" id="cf" placeholder="Codice fiscale">
+                    <input required pattern="^[a-zA-Z]{6}[0-9]{2}[a-zA-Z][0-9]{2}[a-zA-Z][0-9]{3}[a-zA-Z]$" type="text" class="form-control" name="cf" id="cf" placeholder="Codice fiscale">
                   </div>
                   {# <div class="col-lg-6">
                     <div class="select-wrapper">
@@ -47,10 +47,16 @@
                     </div>
                   </div> #}
                   <div class="col-12">
-                    <textarea class="form-control" id="aboutProject" rows="6" placeholder="Scrivi qui l'elenco dei prodotti..."></textarea>
+                    <textarea required  name="elenco" class="form-control" id="aboutProject" rows="6" placeholder="Scrivi qui l'elenco dei prodotti..."></textarea>
                   </div>
+
                   <div class="col-12">
-                    <button type="submit" class="btn btn-primary" formtarget="_blank">
+                    <input type="checkbox" id="privacy" name="privacy" required>
+                    <label for="privacy">Dichiaro di aver letto l'informativa sulla privacy ed esprimo il mio consenso al trattamento dei dati per le finalità indicate</label>
+                  </div>
+                  
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary">
                       <span class="btn-area">
                         <span data-text="{{btnText}}">
                           {{btnText}}

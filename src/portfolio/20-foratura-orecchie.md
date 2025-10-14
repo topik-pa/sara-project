@@ -1,7 +1,7 @@
 ---
-subTitle: "ANALISI" 
-title: "Holster pressorio"
-img: "/assets/images/projects/project-thumb-four.jpg"
+subTitle: "SERVIZIO" 
+title: "Foratura delle orecchie"
+img: "/assets/images/projects/parmacyst.jpg"
 linkText: "Vedi maggiori dettagli"
 featureImg1: "/assets/images/projects/project-details-image-one.jpg"
 featureImg2: "/assets/images/projects/project-details-image-two.jpg"

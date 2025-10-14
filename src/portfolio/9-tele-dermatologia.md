@@ -1,7 +1,7 @@
 ---
 subTitle: "ANALISI" 
-title: "Holster cardiaco"
-img: "/assets/images/projects/project-thumb-four.jpg"
+title: "Tele dermatologia"
+img: "/assets/images/projects/pharmacy2.jpg"
 linkText: "Vedi maggiori dettagli"
 featureImg1: "/assets/images/projects/project-details-image-one.jpg"
 featureImg2: "/assets/images/projects/project-details-image-two.jpg"

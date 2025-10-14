@@ -1,7 +1,7 @@
 ---
-subTitle: "ANALISI" 
-title: "Profili ormonali natrix"
-img: "/assets/images/projects/project-thumb-four.jpg"
+subTitle: "TEST" 
+title: "Cardio wellness test natrix"
+img: "/assets/images/projects/pressure.jpg"
 linkText: "Vedi maggiori dettagli"
 featureImg1: "/assets/images/projects/project-details-image-one.jpg"
 featureImg2: "/assets/images/projects/project-details-image-two.jpg"
