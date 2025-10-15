@@ -7,7 +7,7 @@ require 'PHPMailer/src/SMTP.php';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
-$debug = true;
+$debug = 0;
 
 
 // Verifica che la richiesta sia POST
@@ -23,17 +23,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $privacy = isset($_POST['privacy']) ? trim($_POST['privacy']) : false;
 
     if (!$privacy) {
-        header("location: /error");
+        header("location: /email-error");
         exit('Privacy non valida.');
     }
 
     // Validazione minima
-    if (empty($nome) || empty($cognome) || empty($email) || empty($messaggio)) {
-        header("location: /error");
+    if (empty($nome) || empty($cognome) || empty($email) || empty($phone) || empty($address) || empty($cf) || empty($elenco)) {
+        header("location: /email-error");
         exit('Tutti i campi sono obbligatori.');
     }
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        header("location: /error");
+        header("location: /email-error");
         exit('Indirizzo email non valido.');
     }
     // Costruzione dell'email
@@ -79,13 +79,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Body = $body;
         $mail->AltBody = $body;
         $mail->send();
-        header("location: /confirm");
     } catch (Exception $e) {
-        header("location: /error");
+        header("location: /email-error");
         echo "Message could not be sent. Mailer Error: ".$e->getMessage();
+        exit('Mailer Error');
     }
+    header("location: /email-confirm");
+    exit('OK: email inviata');
 } else {
-    header("location: /error");
     echo 'Metodo non consentito.';
 }
 ?>

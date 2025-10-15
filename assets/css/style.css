@@ -360,6 +360,9 @@ textarea.form-control {
 .site-hero-content-buttons li .btn {
   font-weight: 600;
 }
+.site-hero-content p {
+  color: var(--black);
+}
 @media (max-width: 575px) {
   .site-hero-content-buttons li .btn {
     width: 90%;
