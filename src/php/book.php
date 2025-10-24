@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $cognome = isset($_POST['cognome']) ? trim($_POST['cognome']) : '';
     $email = isset($_POST['email']) ? trim($_POST['email']) : '';
     $phone = isset($_POST['phone']) ? trim($_POST['phone']) : '';
-    $address = isset($_POST['address']) ? trim($_POST['address']) : '';
+    // $address = isset($_POST['address']) ? trim($_POST['address']) : '';
     $cf = isset($_POST['cf']) ? trim($_POST['cf']) : '';
     $elenco = isset($_POST['elenco']) ? trim($_POST['elenco']) : '';
     $privacy = isset($_POST['privacy']) ? trim($_POST['privacy']) : false;
@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Validazione minima
-    if (empty($nome) || empty($cognome) || empty($email) || empty($phone) || empty($address) || empty($cf) || empty($elenco)) {
+    if (empty($nome) || empty($cognome) || empty($email) || empty($phone) /*|| empty($address)*/ || empty($cf) || empty($elenco)) {
         header("location: /email-error");
         exit('Tutti i campi sono obbligatori.');
     }
@@ -43,7 +43,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             "Nome: $nome" . "<br>" .
             "Cognome: $cognome" . "<br>" .
             "Telefono: $phone" . "<br>" .
-            "Indirizzo: $address" . "<br>" .
             "CF: $cf" . "<br>" .
             "Email: $email" . "<br>" .
             "Privacy: $privacy" . "<br>" . "<br>" .
@@ -71,6 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->setFrom('info@farmaciaattimis.fvg.it', 'Sara from farmaciaattimis.fvg.it');
         $mail->addAddress($to);
+        // $mail->AddCC('moneghinisara@gmail.com');
         // $mail->addAttachment("/home/user/Desktop/immagineesempio.png", "immagineesempio.png");
         $mail->CharSet = 'UTF-8';
         $mail->Encoding = 'base64';

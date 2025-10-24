@@ -2,22 +2,343 @@
 
 {% block content %}
 
-    <section class="site-blog-header">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-8 text-center">
-            <h1>I nostri servizi</h1>
-            <p>
-              {{des}}
-            </p>
-          </div>
+  <section class="site-blog-header">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h1>I nostri servizi</h1>
+          <p>
+            {{des}}
+          </p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="site-project" id="project">
-      <div class="container">
-        <div class="row">
+  <section class="site-project" id="project">
+    <div class="container">
+
+      <div class="accordion" id="accordionExample">
+
+        <div class="card">
+          <div class="card-header" id="heading-1">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                Autoanalisi del sangue
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-1" class="collapse" aria-labelledby="heading-1" data-parent="#accordionExample">
+            <div class="card-body">
+              Questo esame con risultato immediato avviene prelevando una piccola goccia di sangue da un polpastrello . È preferibile che il paziente sia a stomaco vuoto I parametri analizzati nella nostra farmacia sono: glicemia Per glicemia si intende la concentrazione di zucchero nel sangue e questo valore è importante per la diagnosi del diabete mellito, per il monitoraggio della terapia antidiabetica, e per valutare il rischio di complicanze cardiovascolari lipidogramma Per lipidogramma si intende la misura delle concentrazioni dei grassi (lipidi) nel sangue come colesterolo totale, colesterolo HDL, quello buono, colesterolo LDL, quello definito cattivo, e trigliceridi. Questi valori sono fondamentali per valutare il rischio cardiovascolare e prevenire, assieme ad una glicemia alterata, l’insorgenza della sindrome metabolica tp la misura della quantità totale delle proteine presenti nel sangue è molto importante per determinare lo stato di salute generale dell’organismo e serve a diagnosticare e monitorare condizioni come la malnutrizione, la disidratazione e le malattie renali oltre che dare un’idea della funzionalità del fegato albumina L’albumina è una proteina che viene prodotta dal fegato ed Il suo valore è fondamentale perché serve a determinare eventuali danni a reni o fegato tbil La bilirubina totale da la misura della funzionalità del fegato e permette di diagnosticare malattie epatiche ed extra epatiche come calcoli delle vie biliari, pancreatiti, neoplasie delle vie biliari e della testa del pancreas. I suoi valori possono essere alti anche per cause genetiche o per il digiuno oltre che per l’assunzione di alcuni farmaci dbil La bilirubina diretta è una componente della bilirubina totale Valori lievemente aumentati si possono riscontrare anche in presenza di concentrazioni di bilirubina totale nei limiti di riferimento e questo può riferire di epatopatie lievi o allo stato iniziale alt L’alanina aminotransferasi è un enzima localizzato principalmente nel citoplasma degli epatociti e valori elevati si osservano soprattutto nel corso di epatopatie di varia natura, da virali a croniche, cirrosi ed epatiti alcoliche e sono indici di citolisi ast L’aspartato aminotransferasi è un enzima presente in molti tessuti e il suo valore aumentato indica un danno a livello epatico, nelle affezioni del muscolo cardiaco e nel tessuto muscolare striato ggt La gamma-glutamil transpeptidasi è enzima presente nel sangue prodotto principalmente dal fegato e dalle vie biliari. E’ un indice di colestasi molto più specifico della fosfatasi alcalina e i suoi valori aumentati si osservano in caso di ittero ostruttivo, di colestasi intra-epatica, nelle epatiti acute e croniche, negli epatocarcinomi, nelle metastasi epatiche di altre neoplasie, e nelle pancreatiti alp La misura del livello dell’enzima fosfatasi alcalina si osserva in presenza di patologie alle vie biliari, alle vie epatiche oltre a quelle delle ossa crea La creatinina è una sostanza di scarto prodotta nei muscoli e la misurazione della sua concentrazione ematica dà la misura della funzionalità renale urea È un prodotto di scarto del metabolismo proteico e la misurazione della sua concentrazione nel sangue e’ un indicatore importante della funzionalità renale ed è utile per diagnosticare condizioni come l’insufficienza renale cronica e acuta ua Per uricemia si intende la misurazione dell’acido urico nel sangue. Esso è un prodotto del metabolismo delle purine e la sua misurazione può indicare problemi renali, malattie come la gotta neoplasie, emolisi, oppure aumentato apporto dietetico nel caso i valori siano elevati.
+
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-2">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                Analisi delle urine
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-2" class="collapse" aria-labelledby="heading-2" data-parent="#accordionExample">
+            <div class="card-body">
+              servono per una determinazione rapida di 11 parametri nelle urine al fine di verificare la presenza di malattie epatiche o ostruzioni biliari ed epatiche, diabete, malattie emolitiche, urologiche, nefrologiche, renali e delle vie urinarie. Danno inoltre indicazioni su variazioni patologiche del pH e sono utili per l’indagine del sedimento urinario
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-3">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                Esame della vitamina D
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-3" class="collapse" aria-labelledby="heading-3" data-parent="#accordionExample">
+            <div class="card-body">
+
+              È un test quantitativo con risultato immediato utilizzato per la diagnosi delle malattie correlate alla carenza di vitamina D. La vitamina D, derivato steroideo che appartiene alle vitamine liposolubili, è sintetizzata principalmente dalla pelle umana dopo irradiazioni di ultra violetti, e una piccola parte è fornita da cibo o supplementi. Essa non influenza solo il metabolismo del calcio e del fosforo, ma ha anche un’ampia gamma di funzioni fisiologiche ed è fondamentale per mantenere la salute umana, la crescita e lo sviluppo delle cellule. Il livello del suo metabolita nel sangue può riflettere la conservazione del livello di vitamina D nel corpo umano, ed è relazionato a sintomi di carenza di vitamina d. Sempre più evidenze epidemiologiche e di laboratorio mostrano che il livello di Idrossivitamina D 25 nel sangue è correlato a rachitismo, osteoporosi, morbo di Parkinson, malattie cardiovascolari, ipertensione, malattia renale cronica, diabete di tipo 2 e tumori nei bambini.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-4">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-4" aria-expanded="true" aria-controls="collapse-4">
+                Misurazione della pressione arteriosa
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-4" class="collapse" aria-labelledby="heading-4" data-parent="#accordionExample">
+            <div class="card-body">
+              ...
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-5">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-5" aria-expanded="true" aria-controls="collapse-5">
+                Elettrocardiogramma
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-5" class="collapse" aria-labelledby="heading-5" data-parent="#accordionExample">
+            <div class="card-body">
+              esame diagnostico non invasivo che ci permette di visualizzare la regolarità e la velocità del battito cardiaco, l’attività elettrica del cuore e può rilevare segni di ischemia o precedenti infarti Viene effettuato su adulti e bambini e l’esito è immediato.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-6">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-6" aria-expanded="true" aria-controls="collapse-6">
+                Holter pressorio
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-6" class="collapse" aria-labelledby="heading-6" data-parent="#accordionExample">
+            <div class="card-body">
+              È un esame diagnostico che permette di misurare la pressione cardiaca per 24 ore al fine di monitorare l’ipertensione e valutare l’efficacia delle varie terapie in atto
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-7">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-7" aria-expanded="true" aria-controls="collapse-7">
+                Holter cardiaco
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-7" class="collapse" aria-labelledby="heading-7" data-parent="#accordionExample">
+            <div class="card-body">
+              È un esame che registra l’attività cardiaca nelle 24 ore ed è utile per diagnosticare aritmie o investigare sintomi di varia natura come palpitazioni e dolore toracico
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-8">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-8" aria-expanded="true" aria-controls="collapse-8">
+                Consulenza nutrizionale grazie al programma dietalab
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-8" class="collapse" aria-labelledby="heading-8" data-parent="#accordionExample">
+            <div class="card-body">
+              È un programma su misura che inizia con un colloquio con il farmacista e prosegue con la valutazione di un nutrizionista che elabora un piano alimentare personalizzato Entrambe le figure professionali seguono il paziente e i suoi progressi Il programma è un percorso dimagrante offerto dalla farmacia basato sul alimenti proteici e chetogenici per perdere massa grassa senza intaccare i muscoli.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-9">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-9" aria-expanded="true" aria-controls="collapse-9">
+                Teledermatologia
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-9" class="collapse" aria-labelledby="heading-9" data-parent="#accordionExample">
+            <div class="card-body">
+              la teledermatologia è una branca della telemedicina che si occupa della diagnosi e del trattamento delle malattie della pelle a distanza. Quest’esame consiste nell’acquisire l’immagine di una lesione cutanea tramite un apparecchio digitale ed inviarla a un medico dermatologo che valuta la patologia. Il suo vantaggio consiste nella riduzione dei tempi di attesa per la consultazione, una maggiore comodità ed una riduzione dei costi per i pazienti
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-10">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-10" aria-expanded="true" aria-controls="collapse-10">
+                Esame delle intolleranze alimentari natrix
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-10" class="collapse" aria-labelledby="heading-10" data-parent="#accordionExample">
+            <div class="card-body">
+              È un test che permette di individuare quali siano le proteine alimentari verso le quali l’organismo ha reazioni avverse ed è disponibile su 46, 92,184 alimenti ( ne esiste anche uno specifico per vegani che va a testare le intolleranze nei confronti delle proteine contenute in 92 alimenti fra cereali, verdura, frutta, legumi, semi, frutta secca, latticini e uova)
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-11">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-11" aria-expanded="true" aria-controls="collapse-11">
+                Gluten sensivity & celiac test natrix
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-11" class="collapse" aria-labelledby="heading-11" data-parent="#accordionExample">
+            <div class="card-body">
+              La sensibilità al glutine è una condizione che si stima interessi dal 6 all’8% della popolazione, e riguarda soggetti che soffrono di disturbi legati all’assunzione di glutine, ma non sono né celiaci né allergici al frumento. A differenza della celiachia nella sensibilità al glutine la sintomatologia è più riconducibile a quella data dalle reazioni avverse agli alimenti, le cosiddette ‘allergie ritardate’ conosciute ma più impropriamente definite ‘intolleranze alimentari’ Ricordando che l’unico modo per diagnosticare la celiachia resta la biopsia intestinale, questo test consente di effettuare con elevata sensibilità lo screening di primo livello per la diagnosi di celiachia, evitando in questo modo biopsie nei pazienti con sintomatologia dubbia nel caso risultino poi negativi allo screening
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-12">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-12" aria-expanded="true" aria-controls="collapse-12">
+                Inflora scan natrix
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-12" class="collapse" aria-labelledby="heading-12" data-parent="#accordionExample">
+            <div class="card-body">
+              E’ un test che è possibile effettuare come profilo completo per valutare il benessere intestinale oppure richiedere alcuni parametri specifici come ~Pro flora check che serve a identificare e quantificare i microrganismi che costituiscono la flora intestinale ~Parassitology check che identifica la presenza di parassiti intestinali ~inflammation check che valuta il grado di infiammazione intestinale ~Permeability check che valuta la permeabilità intestinale al fine di prevenire l’insorgenza di intolleranze alimentari e carenze nutrizionali ~Digestion check analizza la digestione e l’assorbimento intestinale al fine di valutare se l’apparato digerente sia in grado di metabolizzare al meglio gli alimenti, determinando anche la funzionalità pancreatica ~dysbio check è un test che rileva l’alterazione della flora batterica ~patho flora check esame colturale di batteri ad alta patogenicità che viene effettuato sulle feci ~Helicobacter pylori e’ un test che valuta gli anticorpi anti helicobacter pilori in un campione di feci al fine di rilevare un’infezione non sempre sintomatica
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-13">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-13" aria-expanded="true" aria-controls="collapse-13">
+                Profili ormonali natrix
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-13" class="collapse" aria-labelledby="heading-13" data-parent="#accordionExample">
+            <div class="card-body">
+              quando l’organismo è sottoposto a malattie, infiammazione, sforzi fisici, stili di vita scorretti, entra in una situazione di stress. Questo può portare a squilibri nella produzione ormonale, che altera tutti gli altri equilibri e le principali funzioni dell’organismo. I profili ormonali Natrix forniscono informazioni fondamentali per individuare gli squilibri e fornire i consigli mirati per ripristinare l’equilibrio ormonale. I profili ormonali sono tipologie differenti, pensati per specifiche esigenze ~profilo dimagrimento è un test che valuta gli ormoni coinvolti nel metabolismo lipidico, glucidico e nella regolazione del senso di fame e sazietà ~profilo stress è un test che valuta gli ormoni dello stress e il loro andamento in diverse fasi della giornata ~profilo sport il test valuta l’equilibrio degli ormoni coinvolti nel catabolismo e nell’anabolismo muscolare grazie al confronto prima e dopo l’allenamento ~profilo donna fertile e’ un test di prevenzione screening consigliato a tutte le donne che soffrono di sindrome premestruale, calo del desiderio, comparsa di peli in zone tipicamente maschili, irritabilità, depressione. Vengono valutati i principali ormoni femminili nelle varie fasi del ciclo mestruale ~profilo donna menopausa Il test valuta gli ormoni che subiscono le maggiori alterazioni durante questa fase della vita della donna ~profilo uomo come gli ultimi due anche questo test è consigliato in un’ottica di prevenzione e screening in caso di incrementi di peso, calo del desiderio, sudorazioni improvvise, aumento pressorio, depressione, stanchezza, crisi di ansia e irritabilità. Vengono valutati i principali ormoni androgeni e il loro equilibrio con gli estrogeni ~profilo buonanotte è indicato per tutti coloro che fanno fatica ad addormentarsi che soffrono di insonnia, forte stress psicofisico, ansia, depressione e problemi di memoria. Attraverso questo test viene valutato l’equilibrio degli ormoni coinvolti nel ciclo sonno-veglia
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-14">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-14" aria-expanded="true" aria-controls="collapse-14">
+                CProfilo lipidomico natrix
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-14" class="collapse" aria-labelledby="heading-14" data-parent="#accordionExample">
+            <div class="card-body">
+              gli acidi grassi essenziali sono l’acido linoleico (ω6) e a- linolenico (ω9). Si definiscono essenziali perché il nostro organismo non è in grado di produrli autonomamente, perciò vanno introdotti con la dieta. I primi si trovano negli oli vegetali nella frutta secca, i secondi nei pesci come il salmone e nel pesce azzurro. Misurare il profilo lipidomico di una persona significa misurare la distribuzione percentuale e il rapporto degli acidi grassi nella membrana eritrocitaria tracciando il profilo lipidomico dell’organismo ed è importante per capire lo stato infiammatorio dell’organismo e gestire al meglio un’ eventuale integrazione.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-15">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-15" aria-expanded="true" aria-controls="collapse-15">
+                Cardio omega test natrix
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-15" class="collapse" aria-labelledby="heading-15" data-parent="#accordionExample">
+            <div class="card-body">
+              questo test che è strettamente legato al profilo lipidomico serve a fotografare lo stato di salute del cuore e dell’apparato cardiovascolare ben prima che si manifestino disturbi soprattutto nel caso ci sia una familiarità con eventi cardiovascolari maggiori, se si è in sovrappeso, se si pratica sport, se si hanno abitudini alimentari non corrette, o se c’è un consumo di sigarette alcol e caffè
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-16">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-16" aria-expanded="true" aria-controls="collapse-16">
+                Metabolic profile natrix
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-16" class="collapse" aria-labelledby="heading-16" data-parent="#accordionExample">
+            <div class="card-body">
+              questo test serve a valutare la presenza di eventuali danni indotti da alterazioni al metabolismo, mediante il dosaggio di ormoni strettamente correlati al tessuto adiposo. Il grasso corporeo infatti, soprattutto quello localizzato a livello addominale, non costituisce solo un fattore di carattere estetico, ma ha anche un impatto negativo sul metabolismo. La cosiddetta’ sindrome metabolica’ sebbene asintomatica espone di fatto a rischio di sviluppare in futuro patologie cardiovascolari anche gravi: da qui l’importanza di prestare attenzione ai fattori predisponenti ed eseguire adeguati controlli diagnostici. Il metabolic profile è particolarmente indicato a chi, oltre a riscontrare un aumento del grasso addominale, presenta altri fattori di rischio come uno stile di vita sedentario, elevati valori di colesterolo LDL e bassi di HDL, aumento di trigliceridi nel sangue, ipertensione arteriosa, aumento di acido urico e glicemia.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-17">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-17" aria-expanded="true" aria-controls="collapse-17">
+                Zona plus test natrix
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-17" class="collapse" aria-labelledby="heading-17" data-parent="#accordionExample">
+            <div class="card-body">
+              Lo zona plus test è una valutazione di quanto il proprio stato fisiologico si discosta da quella condizione, chiamata zona, in cui gli ormoni, controllati dalla dieta, vengono mantenuti entro i valori fisiologici determinando uno stato di salute ottimale. Il test valuta i marker correlati alla regolazione e al controllo di insulina ed eicosanoidi, ormoni coinvolti nella regolazione dei processi infiammatori: Valori di insulina e glicemia nei range fisiologici permette di assicurare il giusto apporto di zuccheri, riducendo l’accumulo di quelli in eccesso sotto forma di grasso.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-18">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-18" aria-expanded="true" aria-controls="collapse-18">
+                Cardio wellness test natrix
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-18" class="collapse" aria-labelledby="heading-18" data-parent="#accordionExample">
+            <div class="card-body">
+              serve a valutare il rischio cardiovascolare, e fornisce dati indispensabili per capire se stile di vita e abitudini (alimentari e non) mettono a rischio di contrarre patologie come ipertensione, angina, ictus, scompensi cardiaci. Oltre a riportare i valori dei singoli parametri, il test esprime anche un dato di valutazione chiamato ‘indice di rischio cardiovascolare assoluto’, espresso in percentuale di possibilità di incorrere in un primo evento cardiovascolare (infarto o ictus) nei successivi dieci anni. È particolarmente indicato per chi ha familiari che hanno avuto un evento cardiovascolare maggiore, per chi è in sovrappeso, per gli sportivi, o per chi fuma molte sigarette e consuma eccessivamente alcol o caffè
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-19">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-19" aria-expanded="true" aria-controls="collapse-19">
+                Profilo antiage
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-19" class="collapse" aria-labelledby="heading-19" data-parent="#accordionExample">
+            <div class="card-body">
+              È una fotografia, un bilancio globale dello stress ossidativo, ovvero una valutazione dell’equilibrio tra la formazione di radicali liberi, molecole altamente reattive la cui produzione è aumentata da fattori esterni come fumo, alcol, farmaci, raggi ultravioletti e stress, e il potere antiossidante del nostro organismo In chiave anti-aging la rottura dell’equilibrio tra produzione di radicali liberi e potere antiossidante deve essere considerato un pericolo per l’integrità dell’organismo, per questa ragione è necessario conoscere sia la componente anti-ossidante sia quella ossidante ~cell skin profile aggiunge, oltre all’esame dei radicali liberi e del potere antiossidante dell’organismo, l’analisi degli acidi grassi delle membrane cellulari per rilevare carenze e squilibri che si ripercuotono poi sulla salute della pelle. la carenza di acidi grassi essenziali, per esempio, potrebbe essere una delle cause della pelle secca e opaca e contribuire all’insorgenza di rughe. Questo test non è solo importante per individuare un corretto trattamento nutrizionale e nutraceutico da intraprendere, ma è particolarmente indicato se si desidera monitorare l’impatto sull’organismo di fattori di rischio come l’eccessiva esposizione ai raggi UV, lo stress, i trattamenti farmacologici come gli anticoncezionali o il cortisone.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-20">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-20" aria-expanded="true" aria-controls="collapse-20">
+                Foratura delle orecchie
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-20" class="collapse" aria-labelledby="heading-20" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="heading-21">
+            <h5 class="mb-0">
+              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-21" aria-expanded="true" aria-controls="collapse-21">
+                Servizio gratuito di prenotazione Cup
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-21" class="collapse" aria-labelledby="heading-21" data-parent="#accordionExample">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+      </div>
+      {# <div class="row">
           {% for portfolio in collections.portfolios %}
           <div class="col-lg-6 col-md-10 mx-auto">
             <div class="site-project-item">
@@ -39,11 +360,11 @@
           <div class="col-12 text-center text-lg-left">
             <a href="/{{portfolio.seeAllbtn.link}}" class="site-project-cta">{{portfolio.seeAllbtn.text}}</a>
           </div>
-        </div>
-      </div>
-    </section>
+        </div> #}
+    </div>
+  </section>
 
-    {# <section class="site-project-header">
+  {# <section class="site-project-header">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-8">
@@ -63,7 +384,7 @@
       </div>
     </section> #}
 
-    {# <section class="site-project" id="project">
+  {# <section class="site-project" id="project">
         <div class="container">
           <div class="row">
             {% for portfolio in portfolios %}

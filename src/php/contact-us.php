@@ -65,6 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->setFrom('info@farmaciaattimis.fvg.it', 'Sara from farmaciaattimis.fvg.it');
         $mail->addAddress($to);
+        // $mail->AddCC('moneghinisara@gmail.com');
         // $mail->addAttachment("/home/user/Desktop/immagineesempio.png", "immagineesempio.png");
         $mail->CharSet = 'UTF-8';
         $mail->Encoding = 'base64';

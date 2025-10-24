@@ -1245,6 +1245,10 @@ a {
   margin-top: 2rem;
 }
 
+.card-body {
+  color: var(--black);
+}
+
 @media (max-width: 440px) {
   .name {
     display: none;
