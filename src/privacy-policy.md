@@ -3,13 +3,13 @@ layout: "layouts/privacyPolicy.njk"
 title: "Privacy & Policy | Farmacia Moneghini Attimis"
 ---
 
-Ai sensi della vigente normativa in materia di protezione dei dati personali (la “Normativa Privacy”) ivi incluso il Regolamento UE 2016/679 (il “GDPR”), nonché il D.Lgs. 196/2003 come modificato dal D.Lgs. 101/2018 (“Codice Privacy”), la Farmacia Moneghini (la “Farmacia” o il “Titolare”), in qualità di titolare del trattamento, informa gli utenti (di seguito gli “Utenti” o, al singolare, l’“Utente”) del sito web www.farmaciaattimis.fvg.it (il “Sito”) che tratterà i suoi dati personali raccolti tramite il Sito stesso con le modalità e per le finalità descritte nella presente informativa (l’“Informativa”).
+Ai sensi della vigente normativa in materia di protezione dei dati personali (la “Normativa Privacy”) ivi incluso il Regolamento UE 2016/679 (il “GDPR”), nonché il D.Lgs. 196/2003 come modificato dal D.Lgs. 101/2018 (“Codice Privacy”), la Farmacia Moneghini (la “Farmacia” o il “Titolare”), in qualità di titolare del trattamento, informa gli utenti (di seguito gli “Utenti” o, al singolare, l’“Utente”) del sito web www.farmacia-attimis.it (il “Sito”) che tratterà i suoi dati personali raccolti tramite il Sito stesso con le modalità e per le finalità descritte nella presente informativa (l’“Informativa”).
 
 L’Utente, navigando sul Sito, dà atto di aver letto e compreso il contenuto della presente Informativa.
 
 #### 1. Titolare del trattamento e Responsabile della protezione dei dati
 
-Il Titolare del trattamento è la Farmacia Moneghini di Attimis (Udine), contattabile al numero 0432 789039 oppure al seguente indirizzo e-mail info@farmaciaattimis.fvg.it
+Il Titolare del trattamento è la Farmacia Moneghini di Attimis (Udine), contattabile al numero 0432-789039 oppure al seguente indirizzo e-mail farmaciamoneghiniattimis@gmail.com
 
 #### 2. Tipologia di dati trattati attraverso il Sito
 
@@ -41,7 +41,7 @@ per permettere l’invio all’Utente di comunicazioni per mezzo di posta elettr
 
 Qualora la base giuridica del trattamento sia il legittimo interesse del Titolare, lo stesso garantisce di aver preventivamente effettuato una valutazione volta ad assicurare la proporzionalità del trattamento affinché non siano pregiudicati i diritti e le libertà degli Utenti, tenendo conto delle ragionevoli aspettative degli stessi in relazione alla specifica attività di trattamento.
 
-Gli Utenti possono richiedere ulteriori informazioni sulla valutazione di cui sopra inviando una e-mail al seguente indirizzo: info@farmaciaattimis.fvg.it.
+Gli Utenti possono richiedere ulteriori informazioni sulla valutazione di cui sopra inviando una e-mail al seguente indirizzo: farmaciamoneghiniattimis@gmail.com.
 Il Titolare informa altresì l’Utente che ha la possibilità di (i) revocare, in qualsiasi momento, il consenso eventualmente prestato, fermo restando che la revoca del consenso non pregiudica la liceità del trattamento basato sullo stesso; (ii) opporsi, in qualsiasi momento, al trattamento dei suoi dati personali sulla base di legittimi interessi della Farmacia.
 
 In particolare, qualora l’Utente, in futuro, desiderasse non ricevere più comunicazioni per finalità informative e divulgative e/o per finalità di marketing da parte della Farmacia, basterà selezionare la voce “Unsubscribe” in calce alle comunicazioni e-mail per disiscriversi dalla mailing list.
@@ -124,7 +124,7 @@ Ove un trattamento sia basato sul consenso, l’Utente avrà altresì la facolt�
 
 L’Utente potrà in qualsiasi momento esercitare i propri Diritti nelle seguenti modalità:
 
-via e-mail, all’indirizzo: info@farmaciaattimis.fvg.it;
+via e-mail, all’indirizzo: farmaciamoneghiniattimis@gmail.com;
 via posta ordinaria, all’indirizzo della sede legale della Farmacia Moneghini: Via Cividale 26, 33040 Attimis (Udine).
 Il Titolare informa l’Utente che, ai sensi della Normativa Privacy, ha il diritto di proporre reclamo alla competente Autorità di controllo (in particolare nello Stato membro della propria abituale residenza, luogo di lavoro o luogo della presunta violazione), se è del parere che i propri Dati Personali siano trattati in modo da comportare violazioni del GDPR.
 

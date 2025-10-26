@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
     // Costruzione dell'email
     $to = "marcopavan.mp@gmail.com";
-    $subject = 'Nuova prenotazione da farmaciaattimis.fvg.it';
+    $subject = 'Nuova prenotazione da farmacia-attimis.it';
     $body = "Hai ricevuto una nuova prenotazione dal form Prenota:" . "<br>" . "<br>" .
             "Nome: $nome" . "<br>" .
             "Cognome: $cognome" . "<br>" .
@@ -65,10 +65,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Login
         $mail->Host = "mail.tophost.it";
         $mail->Port = 587;
-        $mail->Username = "farmaciaattimis.fvg.it";
-        $mail->Password = "no1iMob1";
+        $mail->Username = "farmacia-attimis.it";
+        $mail->Password = "vaegh7Go";
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->setFrom('info@farmaciaattimis.fvg.it', 'Sara from farmaciaattimis.fvg.it');
+        $mail->setFrom('farmaciamoneghiniattimis@gmail.com', 'Sara from farmacia-attimis.it');
         $mail->addAddress($to);
         // $mail->AddCC('moneghinisara@gmail.com');
         // $mail->addAttachment("/home/user/Desktop/immagineesempio.png", "immagineesempio.png");

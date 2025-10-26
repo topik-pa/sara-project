@@ -252,7 +252,7 @@ textarea.form-control {
   transition: all 0.3s ease;
   padding: 15px 18px;
   position: relative;
-  font-weight: 500;
+  font-weight: 600;
 }
 .site-navigation .nav-item .nav-link:hover {
   color: var(--light-gray);
@@ -268,7 +268,7 @@ textarea.form-control {
   height: 2px;
   width: 25px;
   transition: all 0.2s;
-  background: var(--light-gray);
+  background: var(--purple);
   display: block;
 }
 .site-navigation .navbar-toggler .icon-bar:not(:last-child) {
@@ -1186,6 +1186,7 @@ textarea.form-control {
 }
 .site-hero h1, .site-hero h6 {
   color: var(--purple);
+  text-shadow: 1px 1px white;
 }
 .site-hero-content {
   background: rgba(250, 249, 246, 0.87);
@@ -1215,7 +1216,7 @@ textarea.form-control {
 .name {
   font-family: "Great Vibes", cursive;
   color: var(--green);
-  font-size: 30px;
+  font-size: 34px;
   letter-spacing: 5px;
 }
 
@@ -1247,6 +1248,15 @@ a {
 
 .card-body {
   color: var(--black);
+}
+
+img#ferdinando-e-sara {
+  width: 100%;
+}
+
+img#fotovoltaico {
+  width: 100%;
+  max-width: 900px;
 }
 
 @media (max-width: 440px) {
